@@ -1,0 +1,10 @@
+{
+  "name": "main-test-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "External test suite for the main-test- repo. Set MAIN_REPO to the repo under test.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
