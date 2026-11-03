@@ -5,6 +5,6 @@
   "description": "External test suite for the main-test- repo. Set MAIN_REPO to the repo under test.",
   "type": "module",
   "scripts": {
-    "test": "node --test tests/"
+    "test": "node --test \"tests/**/*.test.js\""
   }
 }
